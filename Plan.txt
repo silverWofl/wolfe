@@ -1,10 +1,12 @@
 id
 -ingin menyelesaikan course front end
+- pengen bisa back end
 -paling penting rakit pc/beli laptop
 -dan saya juga baru di github
 - aku pengen bisa cloud coding di github
 en
 - i want to finish my front end course(currently on javascript but i forgot how to css)
+- i want to be able to back end
 - the most important right now is building a pc, my father didn't let play game in this laptop
 so i need to build for my self with my own money
 - and i new to github
