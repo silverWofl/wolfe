@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+    text-align: center;
+}
+
+.container .img1{
+    border: 30px solid darkblue;
+    width: 100px;
+    height: 100px;
+
+}

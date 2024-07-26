@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html,body {
+        text-align: center;
+        margin: 0 auto;
+        background-color: rgb(246, 147, 230);
+        height: 100%;
+      }
+
+      div{
+        background-color: rgba(114, 13, 238, 0.754);
+        width: 100vh;
+        height: 100%;
+        margin: 0 auto;
+      }
+
+      ul li {
+        display: block;
+        list-style: none;
+        margin-left: -47px;
+      }
+      button {
+        display: block;
+        margin: 10px auto;
+        background-color: rgb(246, 147, 230);
+      }
+
+      img {
+        display: none;
+      }
+      .ely {
+        height: 50vh;
+        width: 50vh;
+        display: flex;
+        margin: 0 auto;
+        border: 1px solid darkblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 style="margin: 0">SUIT JAWA 2.0</h1>
+      <br /><br />
+      <h1 id="winBanner" style="margin-top: 0"></h1>
+
+      <p>Silahkan pilih</p>
+      <ul>
+        <li>Gajah</li>
+        <li>Semut</li>
+        <li>Orang</li>
+      </ul>
+
+      <button type="button" id="gajah">Gajah</button>
+      <button type="button" id="semut">Semut</button>
+      <button type="button" id="orang">Orang</button>
+      <button type="button" id="resetButton">Reset</button>
+
+      <br /><br />
+
+      <h1 id="winExplanation" style="margin: 0"></h1>
+
+      <img src="img/ely.jpg" alt="Correct" />
+      <img src="img/pomuX.jpg" alt="Wrong" />
+      <img src="img/seri.jpg" alt="Wrong" />
+    </div>
+    <script src="suitjawa2.js"></script>
+  </body>
+</html>

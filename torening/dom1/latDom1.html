@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Exercise</title>
+    <style>
+
+        html,body{
+            height: 100%;
+        }
+        body {
+            text-align: center;
+        }
+
+        img {
+            display: none;
+        }
+        
+        button{
+            display: flex;
+            flex-direction: row;
+            margin: 0 auto;
+        }
+        .elysia{
+            height: 50vh;
+            width: 50vh;
+            display: flex;
+            margin: 0 auto;
+        }
+
+        .kotak{
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+            display: inline-block;
+        }
+
+        .merah{
+            background-color: red;
+        }
+        .biru{
+            background-color: blue;
+        }
+        .hijau{
+            background-color: green;
+        }
+        input{
+            display: block;
+            margin: 10px auto;
+        }
+        </style>
+</head>
+<body>
+    <h1 id="hitam">BERMAIN DENGAN WARNA</h1>
+    <button type="button" id="henshin">Ubah Warna</button>
+    <img src="ely.jpg" alt="">
+
+    <br><br>
+
+    <div class="kotak merah"></div>
+    <div class="kotak hijau"></div>
+    <div class="kotak biru"></div>
+
+    <input type="range" name="sliderM" id="" min="0" max="255">
+    <input type="range" name="sliderH" id="" min="0" max="255">
+    <input type="range" name="sliderB" id="" min="0" max="255">
+
+    <script src="latDom1.js"></script>
+</body>
+</html>
